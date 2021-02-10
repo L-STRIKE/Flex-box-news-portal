@@ -1,0 +1,79 @@
+/*--------------------- section header -------------------------*/
+
+.section-header {
+    width: 90%;
+    margin: 0 auto;
+    color:  #ad2139;
+    font-size: 1.5em;
+    font-weight: 700;
+    margin-top: 1em;
+    border-bottom-left-radius: 10px;
+    border-bottom: 1px solid #e7a0ae;
+}
+
+.section-header h2 {
+    background-color: #e7a0ae;
+    padding: 0.2em 0.5em;
+    width: 30%;
+    border-radius: 10px;
+    border-bottom-right-radius: 0;
+}
+
+/*--------------------- section -------------------------*/
+
+.cherry-section, .lotus-section, .hyacinth-section {
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+    justify-content: space-between;
+    padding: 1em 0;
+}
+
+.cherry-section-article, 
+.lotus-section-article, 
+.hyacinth-section-article {
+    width: 30%;
+}
+
+.cherry-section-article-info, 
+.lotus-section-article-info,
+.hyacinth-section-article-info {
+    margin: 1em 0;
+}
+
+.cherry-section-article-info .article-header, 
+.lotus-section-article-info .article-header,
+.hyacinth-section-article-info .article-header{
+    font-size: 1.1em;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+.cherry-section-article-info .article-header:hover, 
+.lotus-section-article-info .article-header:hover,
+.hyacinth-section-article-info .article-header:hover {
+    color: #2f1412;
+}
+
+.cherry-section-article-info .article-time, 
+.lotus-section-article-info .article-time,
+.hyacinth-section-article-info .article-time {
+    margin-top: 1em;
+    color:  #ad2139;
+    font-weight: 100;
+    font-size: 0.8em;
+}
+
+/*--------------------- media -------------------------*/
+@media (max-width: 576px) {
+    .cherry-section, .lotus-section, .hyacinth-section {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .cherry-section-article, 
+    .lotus-section-article, 
+    .hyacinth-section-article {
+        width: 100%;
+    }
+}

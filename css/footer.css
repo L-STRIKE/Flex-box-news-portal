@@ -1,0 +1,46 @@
+footer {
+    background-color: #c76982;
+}
+
+nav ul, nav li {
+    display: inline;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    width: 90%;
+    margin: 0 auto;
+    font-size: 1.1em;
+    padding: 1.5em 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul {
+    flex: 1;
+    max-width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+nav a {
+    text-decoration: none;
+    color: #f7d3e4;
+}
+
+nav p {
+    color: #f7d3e4;
+}
+
+@media (max-width: 768px) {
+    nav {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+}
